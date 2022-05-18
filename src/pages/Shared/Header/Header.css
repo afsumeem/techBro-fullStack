@@ -16,11 +16,11 @@ font-weight: 600;
 }
 
 .menu-items:hover{
-color: #3300ff;
+color: #04AEC4;
 }
 
 .user-btn{
-    border: 3px solid #3300ff;
+    border: 3px solid #04AEC4;
     height: 60px;
     width: 60px;
     transition: 0.5s;
@@ -31,13 +31,13 @@ display: none;
 }
 
 .nav-link{
-color: #3300ff;
+color: #04AEC4;
 font-weight: 800;
 font-size: 20px;
 }
 
 .user-btn:hover{
-background-color: #3300ff;
+background-color: #04AEC4;
 }
 
 .user-btn:hover .nav-link{
@@ -45,14 +45,14 @@ color: black;
 }
 
 .dropdown-menu-items{
-    border-bottom: 1px solid #3300ff;
-    color: #3300ff !important;
+    border-bottom: 1px solid #04AEC4;
+    color: #04AEC4 !important;
 }
 .chngbg{
     background-color: white !important;
 }
 
 .chngbg:hover{
-    background-color: #3300ff !important;
+    background-color: #04AEC4!important;
     color: rgb(0, 0, 0) !important;
 }

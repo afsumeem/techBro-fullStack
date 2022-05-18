@@ -17,9 +17,11 @@ const Products = () => {
     return (
         <>
             <Header />
+            <div style={{ padding: "130px", backgroundColor: "#7b83f8" }}>
+                <h2 className="pt-5 pb-3">Discover the Tech Innovations</h2>
+            </div>
             <Container>
 
-                <h2 className="pt-5 pb-3 heading">Discover the Tech Innovations</h2>
 
                 <Row xs={1} md={3} sm={2} className="g-5">
                     {

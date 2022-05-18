@@ -23,7 +23,7 @@
     color: rgb(145, 145, 145);
 }
 .explore-button{
-  background-color:  #ada9ff;
+  background-color:  #72e3f1;
   color: rgb(0, 0, 0);
   margin-top: 20px;
   font-size: 20px;
@@ -33,7 +33,7 @@
 
 .explore-button:hover{
  
-  background-color:  #3300ff;
+  background-color:  #04AEC4;
   color: white;
 }
 
