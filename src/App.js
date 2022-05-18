@@ -4,6 +4,7 @@ import AuthProvider from './Context/AuthProvider';
 import Home from './pages/Home/Home/Home';
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
+import "./App.css"
 // import WriteBlog from './pages/WriteBlog/WriteBlog';
 // import PrivateRoute from './pages/PrivateRoute/PrivateRoute';
 // import Dashboard from './pages/Dashboard/Dashboard/Dashboard';
