@@ -15,10 +15,10 @@ const AboutUs = () => {
                     <Container>
                         <h5 className='banner-title'>BEST IN-COUNTRY</h5>
 
-                        <h2 className='my-4'>Bring your home to lively <span style={{ "color": "#3300ff" }}>Colors!</span></h2>
+                        <h2 className='my-4'>Bring your home to lively <span style={{ "color": "#04AEC4" }}>Colors!</span></h2>
                         <h6 className='my-4'>We bring your home to your dream Colors. We bring your home to your dream Colors!We bring your home to your dream Colors! We bring your home to your dream Colors!We bring your home to your dream Colors. We bring your home to your dream Colors!We bring your home to your dream Colors! We bring your home to your dream Colors!We bring your home to your dream Colors. We bring your home to your dream Colors!We bring your home to your dream Colors! We bring your home to your dream Colors!</h6>
                         <NavLink to='/products' className="text-decoration-none">
-                            <Button variant='none' style={{ 'border': '2px solid #3300ff' }} className='w-50 py-1 mt-4 banner-btn fw-bold fs-5'>Our Products</Button>
+                            <Button variant='none' style={{ 'border': '2px solid #04AEC4' }} className='w-50 py-1 mt-4 banner-btn fw-bold fs-5'>Our Products</Button>
                         </NavLink>
                     </Container>
                 </Col>

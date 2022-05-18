@@ -8,7 +8,7 @@ const Offer = () => {
                 style={{ "color": "#283048", 'fontWeight': '400' }}
             >We bring your home to your dream Colors. We bring your home to your dream Colors.We bring your home to your dream Colors.We bring your home to your dream Colors!We bring your home to your dream Colors! We bring your home to your dream Colors!</h6>
             <h4 className='text-center my-4' style={{
-                "color": "#c13f22",
+                "color": "#04AEC4",
                 "fontWeight": "400"
             }}>Best Support || Better Quality || Quality Code</h4>
         </div>

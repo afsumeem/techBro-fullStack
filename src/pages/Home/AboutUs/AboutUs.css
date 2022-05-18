@@ -4,7 +4,7 @@ h1{
 }
 
 .banner-btn:hover{
-    background-color: #3300ff;
+    background-color: #04AEC4;
     color: white;
 }
 
@@ -18,7 +18,7 @@ h1{
     display: block;
     width: 35px;
     height: 3px;
-    background: #3300ff;
+    background: #04AEC4;
     left: 0;
     top: 50%;
     position: absolute;
