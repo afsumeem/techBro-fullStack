@@ -37,8 +37,8 @@ const useFirebase = () => {
 
     const handleRegistration = () => {
 
-        if (password.length > 6) {
-            setError("password should have 6 character")
+        if (password.length > 8) {
+            setError("password should have 8 character")
             return;
         }
 
@@ -70,6 +70,7 @@ const useFirebase = () => {
         sendEmailVerification(auth.currentUser)
             .then(result => {
                 console.log(result)
+                alert("Verification Email sent!")
             })
     };
 
@@ -130,7 +131,7 @@ const useFirebase = () => {
 
         const users = { name: name, email: email };
 
-        fetch('https://ancient-headland-15558.herokuapp.com/users', {
+        fetch('https://mighty-waters-53050.herokuapp.com/users', {
             method: method,
             headers: {
                 'content-type': 'application/json'
@@ -143,7 +144,7 @@ const useFirebase = () => {
     // check admin
 
     useEffect(() => {
-        fetch(`https://ancient-headland-15558.herokuapp.com/users/${user.email}`)
+        fetch(`https://mighty-waters-53050.herokuapp.com/users/${user.email}`)
             .then(res => res.json())
             .then(data => setAdmin(data.admin))
     }, [user.email])

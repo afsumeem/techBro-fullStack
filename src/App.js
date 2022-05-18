@@ -1,11 +1,43 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import AuthProvider from './Context/AuthProvider';
+import Home from './pages/Home/Home/Home';
+import Login from './pages/Login/Login';
+import Register from './pages/Register/Register';
+// import WriteBlog from './pages/WriteBlog/WriteBlog';
+// import PrivateRoute from './pages/PrivateRoute/PrivateRoute';
+// import Dashboard from './pages/Dashboard/Dashboard/Dashboard';
+// import MakeAdmin from './pages/Dashboard/MakeAdmin/MakeAdmin';
+// import AllBlogs from './pages/Dashboard/AllBlogs/AllBlogs/AllBlogs';
+// import AdminRoute from './pages/AdminRoute/AdminRoute';
+// import DashboardHome from './pages/Dashboard/DashboardHome/DashboardHome';
+// import WriteArticle from './pages/Dashboard/WriteArticle/WriteArticle';
+// import BlogDetails from './pages/BlogDetails/BlogDetails/BlogDetails';
 
 function App() {
   return (
-    <div className="App">
+    <AuthProvider>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='home' element={<Home />} />
+        {/* <Route path="feedback" element={<PrivateRoute><WriteBlog /></PrivateRoute>}></Route>
+        <Route path="blogs/:id" element={<PrivateRoute><BlogDetails /></PrivateRoute>}></Route> */}
 
-    </div>
+
+        {/* <Route path="/dashboard" element={<AdminRoute><Dashboard /></AdminRoute>}> */}
+        {/* 
+          <Route path="/dashboard" element={<AdminRoute><DashboardHome /></AdminRoute>}></Route>
+          <Route path="/dashboard/makeAdmin" element={<AdminRoute><MakeAdmin /></AdminRoute>}></Route>
+          <Route path="/dashboard/Allblogs" element={<AdminRoute><AllBlogs /></AdminRoute>}></Route>
+          <Route path="/dashboard/article" element={<AdminRoute><WriteArticle /></AdminRoute>}></Route> */}
+
+        {/* </Route> */}
+
+        <Route path='login' element={<Login />} />
+        <Route path='register' element={<Register />} />
+
+      </Routes>
+    </AuthProvider>
   );
 }
 
