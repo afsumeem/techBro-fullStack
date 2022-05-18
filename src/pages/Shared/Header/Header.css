@@ -1,0 +1,58 @@
+.navbar1{
+    background-color: transparent;
+}
+  
+.navbar1.colorChange{
+    background-color: #000000;
+}
+
+.nav-logo{
+    font-size: 35px;
+    font-weight: 700;
+}
+.menu-items{
+color: white;
+font-weight: 600;
+}
+
+.menu-items:hover{
+color: #3300ff;
+}
+
+.user-btn{
+    border: 3px solid #3300ff;
+    height: 60px;
+    width: 60px;
+    transition: 0.5s;
+}
+
+.dropdown-toggle::after{
+display: none;
+}
+
+.nav-link{
+color: #3300ff;
+font-weight: 800;
+font-size: 20px;
+}
+
+.user-btn:hover{
+background-color: #3300ff;
+}
+
+.user-btn:hover .nav-link{
+color: black;
+}
+
+.dropdown-menu-items{
+    border-bottom: 1px solid #3300ff;
+    color: #3300ff !important;
+}
+.chngbg{
+    background-color: white !important;
+}
+
+.chngbg:hover{
+    background-color: #3300ff !important;
+    color: rgb(0, 0, 0) !important;
+}

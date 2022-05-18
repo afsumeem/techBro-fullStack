@@ -20,7 +20,7 @@ const Banner = () => {
 
                 <Carousel.Item >
                     <img
-                        className="d-block w-100 banner-img opacity-25"
+                        className="d-block w-100 banner-img "
                         src={banner1}
                         alt="First slide"
                     />
