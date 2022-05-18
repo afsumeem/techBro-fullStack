@@ -34,9 +34,9 @@ const Header = () => {
 
                     <Nav className="ms-auto" defaultActiveKey="/home">
                         <NavLink to="/home" className="text-decoration-none mx-3 fs-5  menu-items">Home</NavLink>
-                        <NavLink to="/home" className="text-decoration-none mx-3 fs-5  menu-items">About</NavLink>
-                        <NavLink to="/feedback" className="text-decoration-none mx-3 fs-5  menu-items">Products</NavLink>
-                        <NavLink to="/home" className="text-decoration-none mx-3 fs-5  menu-items">Contact Us</NavLink>
+                        <NavLink to="/about" className="text-decoration-none mx-3 fs-5  menu-items">About</NavLink>
+                        <NavLink to="/products" className="text-decoration-none mx-3 fs-5  menu-items">Products</NavLink>
+                        <NavLink to="/contact" className="text-decoration-none mx-3 fs-5  menu-items">Contact Us</NavLink>
 
                         {
                             admin &&

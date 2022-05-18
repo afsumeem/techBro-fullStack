@@ -5,15 +5,7 @@ import Home from './pages/Home/Home/Home';
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
 import "./App.css"
-// import WriteBlog from './pages/WriteBlog/WriteBlog';
-// import PrivateRoute from './pages/PrivateRoute/PrivateRoute';
-// import Dashboard from './pages/Dashboard/Dashboard/Dashboard';
-// import MakeAdmin from './pages/Dashboard/MakeAdmin/MakeAdmin';
-// import AllBlogs from './pages/Dashboard/AllBlogs/AllBlogs/AllBlogs';
-// import AdminRoute from './pages/AdminRoute/AdminRoute';
-// import DashboardHome from './pages/Dashboard/DashboardHome/DashboardHome';
-// import WriteArticle from './pages/Dashboard/WriteArticle/WriteArticle';
-// import BlogDetails from './pages/BlogDetails/BlogDetails/BlogDetails';
+import About from "./pages/About/About"
 
 function App() {
   return (
@@ -21,8 +13,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='home' element={<Home />} />
-        {/* <Route path="feedback" element={<PrivateRoute><WriteBlog /></PrivateRoute>}></Route>
-        <Route path="blogs/:id" element={<PrivateRoute><BlogDetails /></PrivateRoute>}></Route> */}
+        <Route path="about" element={<About />}></Route>
+        <Route path="products" element={<PrivateRoute><BlogDetails /></PrivateRoute>}></Route>
+        <Route path="contact" element={<PrivateRoute><BlogDetails /></PrivateRoute>}></Route>
 
 
         {/* <Route path="/dashboard" element={<AdminRoute><Dashboard /></AdminRoute>}> */}
